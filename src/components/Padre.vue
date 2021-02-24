@@ -6,18 +6,5 @@
 </template>
 
 
-<script>
-import Hijo from './../components/Hijo.vue'; 
-
-export default {
-    name: 'Padre',
-    components: {
-        Hijo
-    },
-    data() {
-        return {
-            mensaje: "Soc el pare"
-        }
-    }
-}
+<script src="./../scripts/Padre.js">
 </script>
